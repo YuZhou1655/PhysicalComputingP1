@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  /* padding:0; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #bcb8b1;
+}
+
+nav {
+  height: auto;
+  background-color: #463f3a;
+  opacity: 0.9;
+  font-size: 1vw;
+}
+
+.nav1 ul {
+  list-style: none;
+  margin: 0;
+  text-align: right;
+}
+
+.nav1 li {
+  display: inline-block;
+  padding: 1%;
+}
+
+.Home {
+  color: #e0afa0;
+}
+
+.Button {
+  color: #f4f3ee;
+  list-style: none;
+  text-decoration: none;
+}
+
+.Button:hover {
+  color: #bcb8b1;
+  list-style: none;
+}
+
+.cover {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("img/FMB 429 1 Rear background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  filter: brightness(50%);
+}
+
+.cover-content {
+  position: relative;
+}
+
+.cover {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-content {
+  position: relative;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  text-align: center;
+  margin: 0.625rem;
+}
+
+.cover-title {
+  font-size: 5vh;
+  font-size: 5vw;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.cover-subtitle {
+  font-size: 2.5vh;
+  font-size: 2.5vw;
+  font-weight: 200;
+  margin-top: 1rem;
+}
+
+.Content {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.imgL {
+  width: 35vw;
+  float: left;
+  padding-right: 5%;
+  padding-left: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%
+}
+
+.imgM {
+  width: 40vw;
+  margin: auto;
+  padding: 1%;
+  display: block;
+}
+
+.imgMl {
+  width: 55vw;
+  margin: auto;
+  padding: 1%;
+  display: block;
+}
+
+.imgMxl {
+  width: 75vw;
+  margin: auto;
+  padding: 1%;
+  display: block;
+}
+
+.imgR {
+  width: 35vw;
+  float: right;
+  padding-right: 1%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%
+}
+
+.imgNote {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1vw;
+  font-size: 1vw;
+  color: #463f3a;
+  text-align: center;
+  margin: 1%;
+}
+
+.imgColumn3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.imgRow3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.imgColumn2 {
+  float: left;
+  width: 50%;
+  padding: 1%;
+}
+
+.imgRow2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.vidPlayer {
+  width: 80vw;
+  margin: auto;
+  display: block;
+}
+
+.header {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3.8vw;
+  font-size: 4vw;
+  color: #463f3a;
+  text-align: center;
+  margin: auto;
+}
+
+.subheader {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3.1vw;
+  font-size: 3.1vw;
+  color: #463f3a;
+  text-align: center;
+  margin: auto;
+}
+
+.subsubheader {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.2vw;
+  font-size: 2.2vw;
+  color: #463f3a;
+  text-align: center;
+}
+
+
+.subcontent {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3vw;
+  font-size: 1.3vw;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #463f3a;
+}
+
+.Gallery {
+  padding: 5%;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.carousel-inner img {
+  width: 100%;
+}
+
+.download {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5vw;
+  font-size: 2.5vh;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%
+}
+
+.Contact {
+  font-family: "Oswald", sans-serif;
+  color: #bcb8b1;
+  background-color: #463f3a;
+  padding: 4%;
+}
+
+.Table {
+  font-size: 2vw;
+  font-size: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+thead {
+  text-align: center;
+}
