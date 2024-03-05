@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: white;
+    background-color: #FFFFFF;
 }
 
 nav {
@@ -33,16 +33,16 @@ nav {
 }
 
 .Button {
-  color: black;
-  list-style: none;
-  text-decoration: none;
+    color: #000000;
+    list-style: none;
+    text-decoration: none;
 }
 
-.Button:hover {
-  color: black;
-  text-decoration: underline;
-  list-style: none;
-}
+    .Button:hover {
+        color: #000000;
+        text-decoration: underline;
+        list-style: none;
+    }
 
 .cover {
   position: relative;
@@ -79,11 +79,11 @@ nav {
 }
 
 .cover-content {
-  position: relative;
-  font-family: "Bebas Neue", cursive;
-  color: white;
-  text-align: center;
-  margin: 0.625rem;
+    position: relative;
+    font-family: "Bebas Neue", cursive;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0.625rem;
 }
 
 .cover-title {
@@ -254,8 +254,8 @@ nav {
 table {
   font-family: "Oswald", sans-serif;
   border-collapse: collapse;
-  width: 90%; /* Adjust the width as needed */
-  margin-top: 1%; /* Adjust the top margin as needed */
+  width: 90%;
+  margin-top: 1%; 
   margin-bottom:1%;
   margin-left:auto;
   margin-right:auto;
@@ -280,19 +280,19 @@ th {
   text-align: center;
 }
 
-.sidebar a {
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  padding-left:1vw;
-  padding-right:1vw;
-  font-size: 1vw;
-  color: black;
-  display: block;
-  text-decoration: none;
-}
+    .sidebar a {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-size: 1vw;
+        color: #000000;
+        display: block;
+        text-decoration: none;
+    }
 
-.sidebar a:hover {
-  color: black;
-  text-decoration: underline;
-}
+        .sidebar a:hover {
+            color: #000000;
+            text-decoration: underline;
+        }
 
