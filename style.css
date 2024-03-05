@@ -8,20 +8,19 @@ html {
 }
 
 body {
-  background-color: #bcb8b1;
+  background-color: white;
 }
 
 nav {
   height: auto;
-  background-color: #463f3a;
-  opacity: 0.9;
+  opacity: 1;
   font-size: 1vw;
+  text-align: right;
 }
 
 .nav1 ul {
   list-style: none;
   margin: 0;
-  text-align: right;
 }
 
 .nav1 li {
@@ -34,13 +33,14 @@ nav {
 }
 
 .Button {
-  color: #f4f3ee;
+  color: black;
   list-style: none;
   text-decoration: none;
 }
 
 .Button:hover {
-  color: #bcb8b1;
+  color: black;
+  text-decoration: underline;
   list-style: none;
 }
 
@@ -236,8 +236,7 @@ nav {
 
 .download {
   font-family: "Oswald", sans-serif;
-  font-size: 2.5vw;
-  font-size: 2.5vh;
+  font-size: 1.5vw;
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
@@ -247,18 +246,53 @@ nav {
 
 .Contact {
   font-family: "Oswald", sans-serif;
-  color: #bcb8b1;
-  background-color: #463f3a;
-  padding: 4%;
+  background-color: #dedede;
+  padding: 1%;
+  text-align: left;
 }
 
-.Table {
-  font-size: 2vw;
-  font-size: 2vh;
-  margin-left: auto;
-  margin-right: auto;
+table {
+  font-family: "Oswald", sans-serif;
+  border-collapse: collapse;
+  width: 90%; /* Adjust the width as needed */
+  margin-top: 1%; /* Adjust the top margin as needed */
+  margin-bottom:1%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-thead {
+
+th, td {
+  padding: 0.5%;
+}
+
+th {
+  font-weight: bold;
+}
+.sidebar {
+  height: auto;
+  width: auto;
+  position: fixed;
+  margin-top: 25vh;
+  margin-left:93%;
+  background-color: #f5f5f5;
+  border-radius: 5%;
   text-align: center;
 }
+
+.sidebar a {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left:1vw;
+  padding-right:1vw;
+  font-size: 1vw;
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
