@@ -11,12 +11,16 @@ body {
     background-color: #FFFFFF;
 }
 
+.UYULogo {
+  max-height: 7vh;
+}
+
 nav {
   height: auto;
   opacity: 1;
-  font-size: 1vw;
-  text-align: right;
+  font-size: 1.3vw;
 }
+
 
 .nav1 ul {
   list-style: none;
@@ -25,23 +29,24 @@ nav {
 
 .nav1 li {
   display: inline-block;
-  padding: 1%;
-}
-
-.Home {
-  color: #e0afa0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 2%;
 }
 
 .Button {
     color: #000000;
     list-style: none;
     text-decoration: none;
+    font-family: "Bebas Neue", cursive;
 }
 
     .Button:hover {
         color: #000000;
         text-decoration: underline;
         list-style: none;
+        font-family: "Bebas Neue", cursive;
     }
 
 .cover {
@@ -189,8 +194,9 @@ nav {
 
 .header {
   font-family: "Bebas Neue", cursive;
-  font-size: 3.8vw;
   font-size: 4vw;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
   color: #463f3a;
   text-align: center;
   margin: auto;
@@ -199,7 +205,8 @@ nav {
 .subheader {
   font-family: "Bebas Neue", cursive;
   font-size: 3.1vw;
-  font-size: 3.1vw;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
   color: #463f3a;
   text-align: center;
   margin: auto;
@@ -245,10 +252,11 @@ nav {
 }
 
 .Contact {
-  font-family: "Oswald", sans-serif;
-  background-color: #dedede;
+  margin-top: 5vh;
+  background-color: white;
   padding: 1%;
   text-align: left;
+  outline: 1vh solid black;
 }
 
 table {
@@ -259,6 +267,7 @@ table {
   margin-bottom:1%;
   margin-left:auto;
   margin-right:auto;
+
 }
 
 
